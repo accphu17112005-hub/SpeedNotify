@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Hai Bà Trưng - Quang Trung",
+    "latitude": 21.0175957,
+    "longitude": 105.8473841,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 7"
+  },
+  {
+    "name": "Hai Bà Trưng - Bà Triệu",
+    "latitude": 21.0175761,
+    "longitude": 105.8495919,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 8"
+  },
+  {
+    "name": "Nguyễn Du - Quang Trung",
+    "latitude": 21.0175957,
+    "longitude": 105.8473841,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 20"
+  },
+  {
+    "name": "Bà Triệu - Nguyễn Du",
+    "latitude": 21.0175761,
+    "longitude": 105.8495919,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 23"
+  },
+  {
+    "name": "Bà Triệu - Trần Nhân Tông",
+    "latitude": 21.0171371,
+    "longitude": 105.8500518,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 24"
+  },
+  {
+    "name": "Bà Triệu - Lê Đại Hành",
+    "latitude": 21.0116945,
+    "longitude": 105.8494932,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 28"
+  },
+  {
+    "name": "Phố Huế - Nguyễn Du",
+    "latitude": 21.0158944,
+    "longitude": 105.8513165,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 32"
+  },
+  {
+    "name": "Trần Hưng Đạo - Ngô Quyền",
+    "latitude": 21.1409438,
+    "longitude": 105.5013728,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 39"
+  },
+  {
+    "name": "Ngô Thì Nhậm - Hỏa Mã",
+    "latitude": 21.0150423,
+    "longitude": 105.8539039,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 43"
+  },
+  {
+    "name": "Lý Thường Kiệt - Phan Chu Trinh",
+    "latitude": 21.0208713,
+    "longitude": 105.8577338,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 44"
+  },
+  {
+    "name": "Lò Đúc - Hỏa Mã",
+    "latitude": 21.0283334,
+    "longitude": 105.854041,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 47"
+  },
+  {
+    "name": "Hàng Giấy - Hàng Đậu",
+    "latitude": 21.0319645,
+    "longitude": 105.853991,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 51"
+  },
+  {
+    "name": "Quán Thánh - Thanh Niên",
+    "latitude": 21.0434962,
+    "longitude": 105.8359835,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 55"
+  },
+  {
+    "name": "Quán Thánh - Nguyễn Biểu",
+    "latitude": 21.030389,
+    "longitude": 105.8348081,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 56"
+  },
+  {
+    "name": "Quán Thánh - Cửa Bắc",
+    "latitude": 21.0717821,
+    "longitude": 105.7729563,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 57"
+  },
+  {
+    "name": "Quán Thánh - Hàng Bún",
+    "latitude": 21.0407329,
+    "longitude": 105.8442895,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 58"
+  },
+  {
+    "name": "Đội Cấn - Ngọc Hà",
+    "latitude": 21.0378041,
+    "longitude": 105.8114021,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 70"
+  },
+  {
+    "name": "Núi Trúc - Kim Mã",
+    "latitude": 21.0304244,
+    "longitude": 105.823137,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 73"
+  },
+  {
+    "name": "Kim Mã - Ngọc Khánh - Vạn Bảo",
+    "latitude": 21.0326611,
+    "longitude": 105.8166896,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 74"
+  },
+  {
+    "name": "Âu Cơ - ngõ 124",
+    "latitude": 21.0283334,
+    "longitude": 105.854041,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 81"
+  },
+  {
+    "name": "Thanh Niên - Yên Phụ",
+    "latitude": 21.050558,
+    "longitude": 105.8391747,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 82"
+  },
+  {
+    "name": "Yên Phụ - Cửa Bắc",
+    "latitude": 21.0283334,
+    "longitude": 105.854041,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 83"
+  },
+  {
+    "name": "Xã Đàn - Nam Đồng",
+    "latitude": 21.0154352,
+    "longitude": 105.8318446,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 100"
+  },
+  {
+    "name": "Ô Chợ Dừa",
+    "latitude": 21.0230507,
+    "longitude": 105.8257551,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 101"
+  },
+  {
+    "name": "Giải Phóng - Tương Mai",
+    "latitude": 20.9905066,
+    "longitude": 105.8412697,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 106"
+  },
+  {
+    "name": "Liễu Giai - Đội Cấn",
+    "latitude": 21.0355367,
+    "longitude": 105.8177175,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 109"
+  },
+  {
+    "name": "Liễu Giai - Kim Mã",
+    "latitude": 21.0361776,
+    "longitude": 105.8153404,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 111"
+  },
+  {
+    "name": "Nguyễn Chí Thanh - Chùa Láng",
+    "latitude": 21.0233951,
+    "longitude": 105.8089129,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 113"
+  },
+  {
+    "name": "Giảng Võ - Cát Linh",
+    "latitude": 21.0260117,
+    "longitude": 105.8222586,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 118"
+  },
+  {
+    "name": "Giảng Võ - Trần Huy Liệu",
+    "latitude": 21.026781,
+    "longitude": 105.8206077,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 119"
+  },
+  {
+    "name": "Giảng Võ - Láng Hạ - La Thành",
+    "latitude": 21.0245385,
+    "longitude": 105.8081276,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 120"
+  },
+  {
+    "name": "Láng Hạ - Thái Hà",
+    "latitude": 21.0494422,
+    "longitude": 105.806715,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 121"
+  },
+  {
+    "name": "Láng Hạ - Đường Láng",
+    "latitude": 21.0388103,
+    "longitude": 105.7818897,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 123"
+  },
+  {
+    "name": "La Thành - Hoàng Cầu",
+    "latitude": 21.0201444,
+    "longitude": 105.8253269,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 127"
+  },
+  {
+    "name": "Tây Sơn - Hồ Đắc Di",
+    "latitude": 21.0283334,
+    "longitude": 105.854041,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 129"
+  },
+  {
+    "name": "Thái Hà - Yên Lãng",
+    "latitude": 21.0494422,
+    "longitude": 105.806715,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 135"
+  },
+  {
+    "name": "Đại La - Trần Đại Nghĩa",
+    "latitude": 20.9966164,
+    "longitude": 105.8457759,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 138"
+  },
+  {
+    "name": "Thạch Bàn - Cổ Linh",
+    "latitude": 21.0228983,
+    "longitude": 105.9053923,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 143"
+  },
+  {
+    "name": "Nguyễn Văn Cừ - Ngọc Lâm",
+    "latitude": 21.0490084,
+    "longitude": 105.8829206,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 147"
+  },
+  {
+    "name": "Trường Sa - Xuân Canh",
+    "latitude": 21.0900889,
+    "longitude": 105.8643467,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 148"
+  },
+  {
+    "name": "Võ Chí Công - Xuân La",
+    "latitude": 21.0686045,
+    "longitude": 105.8085753,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 151"
+  },
+  {
+    "name": "Đào Tấn - Bưởi",
+    "latitude": 21.0334082,
+    "longitude": 105.8052192,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 152"
+  },
+  {
+    "name": "Ngã tư Cầu Giấy",
+    "latitude": 21.0296425,
+    "longitude": 105.7877481,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 153"
+  },
+  {
+    "name": "đường Láng - Cầu 361",
+    "latitude": 21.2334818,
+    "longitude": 105.3817293,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 154"
+  },
+  {
+    "name": "Nguyễn Chí Thanh - Láng",
+    "latitude": 21.0160292,
+    "longitude": 105.8059786,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 155"
+  },
+  {
+    "name": "Đường Láng - Yên Lãng",
+    "latitude": 21.0160292,
+    "longitude": 105.8059786,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 156"
+  },
+  {
+    "name": "Ngã tư Sở",
+    "latitude": 21.0029772,
+    "longitude": 105.8202406,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 157"
+  },
+  {
+    "name": "Lạc Long Quân - Âu Cơ",
+    "latitude": 21.0811792,
+    "longitude": 105.8181068,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 158"
+  },
+  {
+    "name": "Nghĩa Tân - Hoàng Quốc Việt",
+    "latitude": 21.0464718,
+    "longitude": 105.7892478,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 162"
+  },
+  {
+    "name": "Cầu Giấy - Trần Đăng Ninh",
+    "latitude": 21.0400342,
+    "longitude": 105.7911038,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 166"
+  },
+  {
+    "name": "Cầu Giấy - Trần Quý Kiên",
+    "latitude": 21.0370752,
+    "longitude": 105.793087,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 167"
+  },
+  {
+    "name": "Xuân Thủy - PICO",
+    "latitude": 21.0364821,
+    "longitude": 105.7852341,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 169"
+  },
+  {
+    "name": "Nguyễn Trãi - Cự Lộc",
+    "latitude": 21.0025147,
+    "longitude": 105.8159845,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 173"
+  },
+  {
+    "name": "Phạm Văn Đồng - Hoàng Quốc Việt",
+    "latitude": 21.0513308,
+    "longitude": 105.7832923,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 178"
+  },
+  {
+    "name": "Phạm Hùng - Mễ Trì",
+    "latitude": 21.0159733,
+    "longitude": 105.7828225,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 180"
+  },
+  {
+    "name": "Pháp Vân - Vành Đai 3",
+    "latitude": 20.9656642,
+    "longitude": 105.8437919,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 189"
+  },
+  {
+    "name": "Tam Trinh - đường Vành Đai 3",
+    "latitude": 20.9639031,
+    "longitude": 105.8645723,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 190"
+  },
+  {
+    "name": "Linh Nam - Vành Đai 3",
+    "latitude": 20.9796106,
+    "longitude": 105.8892106,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 191"
+  },
+  {
+    "name": "Phạm Văn Đồng - Xuân Đỉnh",
+    "latitude": 21.0634126,
+    "longitude": 105.7842941,
+    "speedLimit": 60,
+    "type": "AI_JUNCTION_CAMERA",
+    "description": "Camera AI giam sat giao thong - Nut 193"
+  }
+]

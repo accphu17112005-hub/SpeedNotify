@@ -1,0 +1,136 @@
+1	Hàng Khay - Bà Triệu
+2	Tràng Thi - Quang Trung
+3	Tràng Thi - Phủ Doãn
+4	Tràng Thi - Quán Sứ
+5	Hai Bà Trưng - Phan Bội Châu
+6	Hai Bà Trưng - Quán Sứ
+9	Hai Bà Trưng - Hàng Bài
+10	Hai Bà Trưng - Ngô Quyền
+11	Hai Bà Trưng - Phan Chu Trinh
+12	Hai Bà Trưng - Đặng Thái Thân
+13	Quán Sứ - Thợ Nhuộm
+14	Lý Thường Kiệt - Phan Bội Châu
+15	Lý Thường Kiệt - Quán Sứ
+16	Lý Thường Kiệt - Đà Tượng
+17	Lý Thường Kiệt - Quang Trung
+18	Quang Trung - Thợ Nhuộm
+19	Trần Hưng Đạo - Quang Trung
+21	Lý Thường Kiệt - Bà Triệu
+22	Trần Hưng Đạo - Bà Triệu
+25	Bà Triệu - Tuệ Tĩnh
+26	Bà Triệu - Tô Hiến Thành
+27	Bà Triệu - Đoàn Trần Nghiệp
+29	Phố Huế - Tô Hiến Thành
+30	Phố Huế - Tuệ Tĩnh
+31	Phố Huế - Trần Xuân Soạn
+33	Hàng Bài - Hàm Long
+34	Trần Hưng Đạo - Hàng Bài
+35	Lý Thường Kiệt - Hàng Bài
+36	Tràng Tiền - Hàng Bài
+37	Tràng Tiền - Ngô Quyền
+38	Lý Thường Kiệt - Ngô Quyền
+40	Ngô Quyền - Hàm Long
+41	Ngô Thì Nhậm - Lê Văn Hưu
+42	Ngô Thì Nhậm - Trần Xuân Soạn
+45	Trần Hưng Đạo - Phan Chu Trinh
+46	Lò Đúc - Phan Chu Trinh
+48	Lò Đúc - Nguyễn Công Trứ
+49	Lò Đúc - Yecxanh
+50	Hàng Đậu - Trần Nhật Duật
+52	Phan Đình Phùng - Hàng Cót
+53	Phan Đình Phùng - Cửa Bắc
+54	Hoàng Diệu - Phan Đình Phùng
+59	Nút đi bộ Quán Thánh
+60	Hoàng Diệu - Điện Kinh Thiên
+61	Điện Biên Phủ - Hoàng Diệu
+62	Trần Phú - Hoàng Diệu
+63	Hùng Vương - Lê Hồng Phong
+64	Hùng Vương - Trần Phú
+65	Hùng Vương - Nguyễn Thái Học
+66	Nguyễn Thái Học - Trịnh Hoài Đức
+67	Trần Phú - Sơn Tây - Lê Trực
+68	Chu Văn An - Trần Phú
+69	Chu Văn An - Lê Hồng Phong
+71	Nguyễn Thái Học - Tôn Đức Thắng
+72	Tôn Đức Thắng - Cát Linh
+75	Kim Mã - trụ sở Liên Hợp Quốc
+76	Đào Tấn - Liễu Giai
+77	Nguyễn Khánh Toàn - Dương Quảng Hàm
+78	Nguyễn Văn Huyên - Nguyễn Khánh Toàn
+79	Âu Cơ - UBND Nhật Tân
+80	Âu Cơ - Nghi Tàm - Xuân Diệu
+84	Yên Phụ - Hàng Than
+85	Hàm Tử Quan - Trần Quang Khải
+86	Trần Quang Khải - Chương Dương Độ
+87	Tràng Tiền - Trần Quang Khải
+88	Trần Khánh Dư - Cầu Đất - Bát Cổ
+89	Nguyễn Khoái - Đốc Vạn Kiếp
+90	Trần Hưng Đạo - Lê Thánh Tông
+91	Trần Hưng Đạo - Phan Huy Chú
+92	Lương Yên - Trần Khánh Dư
+93	Nguyễn Khoái - Lãng Yên
+94	Trần Khát Chân - Lò Đúc
+95	Trần Khát Chân - Võ Thị Sáu
+96	Bạch Mai - Đại Cồ Việt - Trần Khát Chân - Phố Huế
+97	Đại Cồ Việt - Nguyễn Đình Chiểu
+98	Đại Cồ Việt - Hoa Lư
+99	Phạm Ngọc Thạch - Xã Đàn
+102	Lê Duẩn - Lý Thường Kiệt
+103	Lê Duẩn - Nguyễn Du
+104	Trần Nhân Tông - Lê Duẩn
+105	Giải Phóng - Trường Chinh
+107	Giải Phóng - Bến xe phía Nam
+108	Giải Phóng - Trương Định
+110	Phan Kế Bính - Liễu Giai
+112	Nguyễn Chí Thanh - La Thành
+114	Huỳnh Thúc Kháng - Nguyễn Chí Thanh
+115	Nguyễn Khang - Trần Duy Hưng
+116	Trần Duy Hưng - Hoàng Đạo Thúy
+117	Trần Duy Hưng - Hoàng Minh Giám
+122	Láng Hạ - Hoàng Ngọc Phách - Thái Thịnh
+124	Lê Văn Lương - Hoàng Đạo Thúy
+125	Lê Văn Lương - Nguyễn Tuân - Hoàng Minh Giám
+126	Xã Đàn Mới - Hoàng Cầu
+128	Bệnh Viện Đống Đa - Nguyễn Lương Bằng
+130	Tây Sơn - Thái Thịnh
+131	Phạm Ngọc Thạch - Lương Định Của
+132	Chùa Bộc - Tôn Thất Tùng
+133	Chùa Bộc - HV Ngân Hàng
+134	Thái Hà - Chùa Bộc
+136	Huỳnh Thúc Kháng - Nguyễn Hồng
+137	Trường Chinh - Tôn Thất Tùng
+139	Bạch Mai - Đại La
+140	Minh Khai - cầu Mai Động - Tam Trinh
+141	Cổ Linh - Cầu Vĩnh Tuy
+142	Đàm Quang Trung - Tư Đình
+144	Cổ Linh - THPT Thạch Bàn
+145	Đàm Quang Trung - Sân Golf Long Biên
+146	Nguyễn Văn Cừ - Nguyễn Sơn (BX Gia Lâm)
+149	An Dương Vương - Đường dẫn cầu Nhật Tân (nhánh 2)
+150	Võ Chí Công - Nguyễn Hoàng Tôn
+159	Lạc Long Quân - Thụy Khuê
+160	Lạc Long Quân - Hoàng Hoa Thám - Bưởi
+161	Hoàng Quốc Việt - Nguyễn Văn Huyên
+163	Hoàng Quốc Việt - Nguyễn Phong Sắc
+164	Hoàng Quốc Việt - Phạm Tuấn Tài
+165	Trần Đăng Ninh - Nguyễn Phong Sắc
+168	Xuân Thủy - Nguyễn Phong Sắc
+170	Mai Dịch - Xuân Thủy - Phạm Hùng
+171	Lê Đức Thọ - Hồ Tùng Mậu - Trần Vỹ
+172	Lê Đức Thọ - Hàm Nghi
+174	Nguyễn Trãi - Khuất Duy Tiến
+175	Trần Phú - Nguyễn Văn Lộc
+176	Nguyễn Khuyến - Trần Phú - đường 36m
+177	Phùng Hưng - Trần Phú (Cầu Trắng)
+179	Phạm Hùng - Tôn Thất Thuyết - BX Mỹ Đình
+181	Phạm Hùng - Đỗ Đức Dục
+182	Phạm Hùng - TT Hội nghị Quốc Gia
+183	Phạm Hùng - Trần Duy Hưng
+184	Lê Văn Lương - Khuất Duy Tiến
+185	Nguyễn Xiển - Chu Văn An
+186	Nghiêm Xuân Yêm - Cầu Dậu
+187	Nguyễn Hữu Thọ - Nghiêm Xuân Yêm
+188	VD3 - trụ T62 Hoàng Liệt
+192	Phạm Văn Đồng - Bến xe Nam Thăng Long
+194	Vũ Văn Kiệt - Quang Minh
+195	QL2 - Vũ Văn Kiệt

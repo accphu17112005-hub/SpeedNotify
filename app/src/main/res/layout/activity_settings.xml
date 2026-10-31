@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CÀI ĐẶT CẢNH BÁO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Switch
+            android:id="@+id/switchSpeedWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cảnh báo vượt tốc độ"
+            android:layout_marginBottom="12dp" />
+
+        <Switch
+            android:id="@+id/switchCameraWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cảnh báo camera phạt nguội"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngưỡng cảnh báo vượt tốc độ (km/h)"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarSpeedThreshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSpeedThreshold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngưỡng cảnh báo: 5 km/h"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnTestSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test âm thanh cảnh báo"
+            android:layout_marginBottom="24dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginVertical="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TỐI ƯU CHO MÁY CŨ (ANDROID 6-8)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAutostartGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mở cài đặt Tự khởi động (Autostart)"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnBatteryOptimization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mở cài đặt Tối ưu pin (Bỏ qua)"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnLockAppGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hướng dẫn khóa app trong Recent Apps"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>

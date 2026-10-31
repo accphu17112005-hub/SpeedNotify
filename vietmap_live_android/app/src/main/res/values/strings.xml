@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dashcam Offline</string>
+    <string name="dashcam_requesting_photo">Đang gửi lệnh chụp ảnh tới Dashcam...</string>
+    <string name="photo_success">📸 Đã chụp ảnh thành công!</string>
+    <string name="camera_connect_error">⚠️ Không thể kết nối tới Camera Wifi</string>
+    <string name="offline_map_missing">Chưa có dữ liệu bản đồ offline. Đẩy file vào: %s</string>
+    <string name="offline_map_corrupt">File bản đồ offline bị lỗi/thiếu dữ liệu, cần tải/đẩy lại: %s</string>
+    <string name="camera_alert_distance">Khoảng cách: %1$d m (Giới hạn %2$d km/h)</string>
+    <string name="location_not_available">Chưa xác định được vị trí GPS</string>
+    <string name="feature_in_development">Tính năng đang phát triển</string>
+    <string name="osm_sync_started">Đang đồng bộ dữ liệu camera từ OpenStreetMap...</string>
+    <string name="osm_sync_done">Đã cập nhật %d camera từ OpenStreetMap</string>
+    <string name="osm_sync_offline">Đang dùng dữ liệu camera offline</string>
+</resources>

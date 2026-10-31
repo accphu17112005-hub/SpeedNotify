@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SpeedNotify</string>
+    <string name="app_name_short">SpeedNotify</string>
+
+    <!-- Main Activity -->
+    <string name="service_running">Đang chạy</string>
+    <string name="service_stopped">Đã dừng</string>
+    <string name="permission_granted">Đã cấp</string>
+    <string name="permission_denied">Chưa cấp</string>
+    <string name="battery_optimized">Đang tối ưu (cần tắt)</string>
+    <string name="battery_not_optimized">Đã bỏ qua</string>
+
+    <!-- Settings -->
+    <string name="speed_warning_enabled">Cảnh báo vượt tốc độ</string>
+    <string name="camera_warning_enabled">Cảnh báo camera phạt nguội</string>
+    <string name="speed_threshold_label">Ngưỡng cảnh báo vượt tốc độ (km/h)</string>
+    <string name="test_sound">Test âm thanh cảnh báo</string>
+    <string name="autostart_guide">Mở cài đặt Tự khởi động</string>
+    <string name="battery_optimization_guide">Mở cài đặt Tối ưu pin</string>
+    <string name="lock_app_guide">Hướng dẫn khóa app</string>
+
+    <!-- Permission Guide -->
+    <string name="permission_guide_title">Hướng dẫn cấp quyền</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">SpeedNotify Location Service</string>
+    <string name="notification_channel_desc">Dịch vụ chạy ngầm theo dõi tốc độ và camera</string>
+    <string name="notification_title">SpeedNotify đang chạy</string>
+    <string name="notification_text">Đang theo dõi tốc độ và camera</string>
+
+    <!-- Warnings -->
+    <string name="speed_warning_prefix">Cảnh báo, bạn đang vượt tốc độ. Giới hạn </string>
+    <string name="camera_warning_prefix">Cảnh báo, sắp đến camera phạt nguội. Giới hạn </string>
+
+    <!-- Map Activity -->
+    <string name="location_not_available">Chưa có vị trí</string>
+    <string name="map_service_running">● Dịch vụ cảnh báo: Đang chạy</string>
+    <string name="map_service_stopped">○ Dịch vụ cảnh báo: Đã dừng</string>
+    <string name="map_sync_osm">Sync camera OSM</string>
+    <string name="map_syncing">Đang sync…</string>
+    <string name="map_osm_synced">Đã đồng bộ %d camera từ OpenStreetMap</string>
+    <string name="map_osm_cached">Dữ liệu OSM còn mới (cache 24h)</string>
+    <string name="map_osm_failed">Không đồng bộ được (kiểm tra mạng)</string>
+    <string name="offline_map_corrupt">File MBTiles lỗi: %1$s</string>
+    <string name="camera_alert_distance">Cách %1$d m · Giới hạn %2$d km/h</string>
+    <string name="map_source_online">🌐 Bản đồ Online</string>
+    <string name="map_source_offline">💾 Bản đồ Offline</string>
+    <string name="map_import_mbtiles">Nạp MBTiles</string>
+    <string name="map_import_copying">Đang nạp file MBTiles…</string>
+    <string name="map_import_success">Đã nạp file bản đồ offline thành công!</string>
+    <string name="map_import_failed">File MBTiles không hợp lệ hoặc lỗi đọc file.</string>
+    <string name="map_load_failed">Không tải được bản đồ online. Vui lòng kiểm tra kết nối mạng.</string>
+
+    <!-- Dialogs -->
+    <string name="permission_required">Cần cấp quyền</string>
+    <string name="permission_message">Ứng dụng cần quyền vị trí và thông báo để hoạt động. Bạn có muốn mở cài đặt không?</string>
+    <string name="open_settings">Mở cài đặt</string>
+    <string name="cancel">Hủy</string>
+</resources>

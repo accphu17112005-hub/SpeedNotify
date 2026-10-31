@@ -1,0 +1,201 @@
+{
+  "version": 8,
+  "name": "Vietmap Offline Dark Style",
+  "glyphs": "asset://glyphs/{fontstack}/{range}.pbf",
+  "sprite": "asset://sprites/dark",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "tiles": ["mbtiles://vietnam.mbtiles?file={x}/{y}/{z}.pbf"],
+      "minzoom": 0,
+      "maxzoom": 14
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#0f172a" }
+    },
+    {
+      "id": "landcover_wood",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": ["==", "class", "wood"],
+      "paint": { "fill-color": "#14532d", "fill-opacity": 0.5 }
+    },
+    {
+      "id": "landcover_grass",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": ["in", "class", "grass", "farmland"],
+      "paint": { "fill-color": "#1e3a2f", "fill-opacity": 0.5 }
+    },
+    {
+      "id": "landuse_residential",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["==", "class", "residential"],
+      "paint": { "fill-color": "#1e293b", "fill-opacity": 0.6 }
+    },
+    {
+      "id": "park",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "park",
+      "paint": { "fill-color": "#14532d", "fill-opacity": 0.4 }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "paint": { "line-color": "#0369a1", "line-width": 1 }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "paint": { "fill-color": "#0369a1" }
+    },
+    {
+      "id": "road_path",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", "class", "path", "track"],
+      "paint": {
+        "line-color": "#475569",
+        "line-width": 1,
+        "line-dasharray": [2, 2]
+      }
+    },
+    {
+      "id": "road_minor",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", "class", "minor", "service"],
+      "paint": {
+        "line-color": "#64748b",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 10, 0.5, 16, 2.5]
+      }
+    },
+    {
+      "id": "road_major",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", "class", "tertiary", "secondary", "primary"],
+      "layout": { "line-cap": "round", "line-join": "round" },
+      "paint": {
+        "line-color": "#e2e8f0",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.8, 16, 4.5]
+      }
+    },
+    {
+      "id": "road_highway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", "class", "motorway", "trunk"],
+      "layout": { "line-cap": "round", "line-join": "round" },
+      "paint": {
+        "line-color": "#f97316",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 6, 1, 16, 6]
+      }
+    },
+    {
+      "id": "building_3d",
+      "type": "fill-extrusion",
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 14,
+      "paint": {
+        "fill-extrusion-color": "#334155",
+        "fill-extrusion-height": ["coalesce", ["get", "render_height"], 5],
+        "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0],
+        "fill-extrusion-opacity": 0.85
+      }
+    },
+    {
+      "id": "poi_icon",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 15,
+      "filter": [
+        "in", "class",
+        "restaurant", "cafe", "bar", "fast_food", "school", "university",
+        "museum", "theatre", "stadium", "supermarket", "toilets", "library",
+        "zoo", "attraction", "convenience", "drinking_water", "artwork",
+        "garden", "marina", "bench", "beauty", "electronics", "post_office",
+        "train_station", "ferry_terminal", "aerodrome", "bus_stop", "books"
+      ],
+      "layout": {
+        "icon-image": ["get", "class"],
+        "icon-size": 1,
+        "icon-allow-overlap": false,
+        "text-field": ["get", "name"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 11,
+        "text-anchor": "top",
+        "text-offset": [0, 0.8],
+        "text-optional": true
+      },
+      "paint": {
+        "text-color": "#e2e8f0",
+        "text-halo-color": "#0f172a",
+        "text-halo-width": 1.2
+      }
+    },
+    {
+      "id": "road_name",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 13,
+      "filter": ["in", "class", "motorway", "trunk", "primary", "secondary", "tertiary", "minor"],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": ["get", "name"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "text-letter-spacing": 0.02
+      },
+      "paint": {
+        "text-color": "#f1f5f9",
+        "text-halo-color": "#0f172a",
+        "text-halo-width": 1.4
+      }
+    },
+    {
+      "id": "place_label",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "filter": ["!=", "class", "continent"],
+      "layout": {
+        "text-field": ["get", "name"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": [
+          "match", ["get", "class"],
+          "city", 16,
+          "town", 13,
+          "village", 11,
+          9
+        ],
+        "text-transform": "none"
+      },
+      "paint": {
+        "text-color": "#f8fafc",
+        "text-halo-color": "#0f172a",
+        "text-halo-width": 1.5
+      }
+    }
+  ]
+}

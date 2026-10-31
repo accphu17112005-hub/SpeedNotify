@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+
+# Signing — KHÔNG commit keystore/mật khẩu
+keystore/
+*.jks
+*.keystore
+signing.env
+
+# IDE
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
+vietnam.mbtiles
