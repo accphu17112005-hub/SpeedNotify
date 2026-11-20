@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBFCB2185DD3AA74E3EFAE0D /* SpeedNotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48969A68667D38F8498FDA3B /* SpeedNotifyApp.swift */; };
+		B528FB989C49854B3D441C13 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5836FB0D8349D5E2127A1669 /* Camera.swift */; };
+		5AF6ADE8B411864C0F4EB9BC /* RoadSpeedLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5D6A1370820B5B3A78EC /* RoadSpeedLimit.swift */; };
+		4BC53551727637D1F8B6ADC2 /* TripLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347FA0ACE63F3911294CD60 /* TripLocation.swift */; };
+		E875DB1FA74627E1D5D36BBB /* CameraStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DEC3DF9A239BCA465218EE /* CameraStore.swift */; };
+		EF5759753B7476F78A5DCCA5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3196E0523C3A8A54F57BCD5 /* LocationManager.swift */; };
+		F9F7648A309BE88A86C2E37D /* OsmCameraSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65B77422AF9D8589C9457C /* OsmCameraSyncService.swift */; };
+		FBC5D432F88164F3E8F09C8E /* RoadSpeedLimitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33FAE4F7FDFDC5FF8459FE3 /* RoadSpeedLimitService.swift */; };
+		7BA3A3E8909C3BD9B417533C /* TripRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1FD86983E0E81BF3B33C00 /* TripRecorder.swift */; };
+		32093AB6B5F2DB809DECA534 /* VoiceAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CF4402813B3ADFBED520A /* VoiceAlertManager.swift */; };
+		EFF7DF8D45E2DE7A56487C41 /* GeoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D922A4F3A4B0E0CC0074C /* GeoUtils.swift */; };
+		1A0A210FB4634C9E39694B55 /* GpsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FE9B8EEDD0EA15A006F77D /* GpsUtils.swift */; };
+		68D714F4968CC0F69108CA4F /* CameraMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10803F40805AC8E31F774C7 /* CameraMapView.swift */; };
+		C3A06A3450CD5B4F8DEF0C66 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D536E8C0599434DEC4E72F /* DashboardView.swift */; };
+		A56E73ACC33CE11035AAAFC6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C988D6926DEDEA1094171 /* MainTabView.swift */; };
+		686C404C84BB19E7802C3B68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB429590C61B761CDF86D /* SettingsView.swift */; };
+		8D78F70FC4000718EC47C6A7 /* SpeedLimitSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1F9806692ECCB7794CAA0 /* SpeedLimitSignView.swift */; };
+		018E20D05065233215DA2DD5 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CFBF5333CDABACD47FDCE /* SpeedometerView.swift */; };
+		1229B40DBA4DB0843A4A17AC /* TripHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641139BE1548953FCCA5EA5 /* TripHistoryView.swift */; };
+		5374D090F5DFDA06A54A7587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB55363148003992F62A8EC /* Assets.xcassets */; };
+		B1D9ED9F1F2BDF49F316F1B7 /* ai_cameras_hanoi.json in Resources */ = {isa = PBXBuildFile; fileRef = A737FCE56CDC7CCF63FBD915 /* ai_cameras_hanoi.json */; };
+		1379E395F9A89305420D2591 /* speed_cameras_vietnam.json in Resources */ = {isa = PBXBuildFile; fileRef = B326F3F680739B4616AA112F /* speed_cameras_vietnam.json */; };
+		9E443B2D1DD4CE78E2FB075A /* warning_camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D379311FEB630D1911D55B9 /* warning_camera.wav */; };
+		A235F04A0F7BFC15DC506049 /* warning_generic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0437BB3316F3C2AFD91E0CD2 /* warning_generic.wav */; };
+		A2D5E1F8EB1847FBFF81D006 /* warning_redlight.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08C5BB1E5BD8937582537CC3 /* warning_redlight.wav */; };
+		459D66F4D884CFB53EBF8815 /* warning_speed.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9310BF14BEBFD574983C450 /* warning_speed.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48969A68667D38F8498FDA3B /* SpeedNotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeedNotifyApp.swift"; sourceTree = "<group>"; };
+		5836FB0D8349D5E2127A1669 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Camera.swift"; sourceTree = "<group>"; };
+		56EB5D6A1370820B5B3A78EC /* RoadSpeedLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoadSpeedLimit.swift"; sourceTree = "<group>"; };
+		9347FA0ACE63F3911294CD60 /* TripLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TripLocation.swift"; sourceTree = "<group>"; };
+		94DEC3DF9A239BCA465218EE /* CameraStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraStore.swift"; sourceTree = "<group>"; };
+		D3196E0523C3A8A54F57BCD5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationManager.swift"; sourceTree = "<group>"; };
+		2B65B77422AF9D8589C9457C /* OsmCameraSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OsmCameraSyncService.swift"; sourceTree = "<group>"; };
+		E33FAE4F7FDFDC5FF8459FE3 /* RoadSpeedLimitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoadSpeedLimitService.swift"; sourceTree = "<group>"; };
+		FB1FD86983E0E81BF3B33C00 /* TripRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TripRecorder.swift"; sourceTree = "<group>"; };
+		BA4CF4402813B3ADFBED520A /* VoiceAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VoiceAlertManager.swift"; sourceTree = "<group>"; };
+		622D922A4F3A4B0E0CC0074C /* GeoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeoUtils.swift"; sourceTree = "<group>"; };
+		78FE9B8EEDD0EA15A006F77D /* GpsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GpsUtils.swift"; sourceTree = "<group>"; };
+		C10803F40805AC8E31F774C7 /* CameraMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraMapView.swift"; sourceTree = "<group>"; };
+		04D536E8C0599434DEC4E72F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardView.swift"; sourceTree = "<group>"; };
+		A58C988D6926DEDEA1094171 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabView.swift"; sourceTree = "<group>"; };
+		3FAFB429590C61B761CDF86D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		D5E1F9806692ECCB7794CAA0 /* SpeedLimitSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeedLimitSignView.swift"; sourceTree = "<group>"; };
+		EE1CFBF5333CDABACD47FDCE /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeedometerView.swift"; sourceTree = "<group>"; };
+		0641139BE1548953FCCA5EA5 /* TripHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TripHistoryView.swift"; sourceTree = "<group>"; };
+		7AB55363148003992F62A8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		A737FCE56CDC7CCF63FBD915 /* ai_cameras_hanoi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ai_cameras_hanoi.json"; sourceTree = "<group>"; };
+		B326F3F680739B4616AA112F /* speed_cameras_vietnam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "speed_cameras_vietnam.json"; sourceTree = "<group>"; };
+		2D379311FEB630D1911D55B9 /* warning_camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "warning_camera.wav"; sourceTree = "<group>"; };
+		0437BB3316F3C2AFD91E0CD2 /* warning_generic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "warning_generic.wav"; sourceTree = "<group>"; };
+		08C5BB1E5BD8937582537CC3 /* warning_redlight.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "warning_redlight.wav"; sourceTree = "<group>"; };
+		C9310BF14BEBFD574983C450 /* warning_speed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "warning_speed.wav"; sourceTree = "<group>"; };
+		BAD676C6E129A504558040AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		CFF28B70E311DA265676401A /* SpeedNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedNotify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C448FB86A22E5B7F468F9341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396AE4B78ADCA057876B0448 = {
+			isa = PBXGroup;
+			children = (
+				C505329859BF03CBA4856FB9 /* SpeedNotify */,
+				B879358E0122ADB25F226773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B879358E0122ADB25F226773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF28B70E311DA265676401A /* SpeedNotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C505329859BF03CBA4856FB9 /* SpeedNotify */ = {
+			isa = PBXGroup;
+			children = (
+				48969A68667D38F8498FDA3B /* SpeedNotifyApp.swift */,
+				BC8E6A5FDB0FEE50AF1B10E7 /* Models */,
+				FA1196890D421541891D17B1 /* Services */,
+				C5F2C1D2B690803658164073 /* Utils */,
+				F867080DDDCAA8CC74A91BE2 /* Views */,
+				B642DCC00EC1A184662227C2 /* Resources */,
+				BAD676C6E129A504558040AC /* Info.plist */,
+			);
+			path = SpeedNotify;
+			sourceTree = "<group>";
+		};
+		BC8E6A5FDB0FEE50AF1B10E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5836FB0D8349D5E2127A1669 /* Camera.swift */,
+				56EB5D6A1370820B5B3A78EC /* RoadSpeedLimit.swift */,
+				9347FA0ACE63F3911294CD60 /* TripLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA1196890D421541891D17B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94DEC3DF9A239BCA465218EE /* CameraStore.swift */,
+				D3196E0523C3A8A54F57BCD5 /* LocationManager.swift */,
+				2B65B77422AF9D8589C9457C /* OsmCameraSyncService.swift */,
+				E33FAE4F7FDFDC5FF8459FE3 /* RoadSpeedLimitService.swift */,
+				FB1FD86983E0E81BF3B33C00 /* TripRecorder.swift */,
+				BA4CF4402813B3ADFBED520A /* VoiceAlertManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C5F2C1D2B690803658164073 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				622D922A4F3A4B0E0CC0074C /* GeoUtils.swift */,
+				78FE9B8EEDD0EA15A006F77D /* GpsUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F867080DDDCAA8CC74A91BE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C10803F40805AC8E31F774C7 /* CameraMapView.swift */,
+				04D536E8C0599434DEC4E72F /* DashboardView.swift */,
+				A58C988D6926DEDEA1094171 /* MainTabView.swift */,
+				3FAFB429590C61B761CDF86D /* SettingsView.swift */,
+				D5E1F9806692ECCB7794CAA0 /* SpeedLimitSignView.swift */,
+				EE1CFBF5333CDABACD47FDCE /* SpeedometerView.swift */,
+				0641139BE1548953FCCA5EA5 /* TripHistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B642DCC00EC1A184662227C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AB55363148003992F62A8EC /* Assets.xcassets */,
+				A737FCE56CDC7CCF63FBD915 /* ai_cameras_hanoi.json */,
+				B326F3F680739B4616AA112F /* speed_cameras_vietnam.json */,
+				2D379311FEB630D1911D55B9 /* warning_camera.wav */,
+				0437BB3316F3C2AFD91E0CD2 /* warning_generic.wav */,
+				08C5BB1E5BD8937582537CC3 /* warning_redlight.wav */,
+				C9310BF14BEBFD574983C450 /* warning_speed.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2CA6210CCFD25579B46438 /* SpeedNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835EBBF1B9474116B604706B /* Build configuration list for PBXNativeTarget "SpeedNotify" */;
+			buildPhases = (
+				CD77EE1B024738EBDDD804E8 /* Sources */,
+				C448FB86A22E5B7F468F9341 /* Frameworks */,
+				CEB73B00154D0F57D6819D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedNotify;
+			productName = SpeedNotify;
+			productReference = CFF28B70E311DA265676401A /* SpeedNotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA2671185F1DB4062AE9EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BF2CA6210CCFD25579B46438 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8F726A1AC499C0EA99DDD1C3 /* Build configuration list for PBXProject "SpeedNotify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396AE4B78ADCA057876B0448;
+			productRefGroup = B879358E0122ADB25F226773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2CA6210CCFD25579B46438 /* SpeedNotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB73B00154D0F57D6819D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5374D090F5DFDA06A54A7587 /* Assets.xcassets in Resources */,
+				B1D9ED9F1F2BDF49F316F1B7 /* ai_cameras_hanoi.json in Resources */,
+				1379E395F9A89305420D2591 /* speed_cameras_vietnam.json in Resources */,
+				9E443B2D1DD4CE78E2FB075A /* warning_camera.wav in Resources */,
+				A235F04A0F7BFC15DC506049 /* warning_generic.wav in Resources */,
+				A2D5E1F8EB1847FBFF81D006 /* warning_redlight.wav in Resources */,
+				459D66F4D884CFB53EBF8815 /* warning_speed.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD77EE1B024738EBDDD804E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCB2185DD3AA74E3EFAE0D /* SpeedNotifyApp.swift in Sources */,
+				B528FB989C49854B3D441C13 /* Camera.swift in Sources */,
+				5AF6ADE8B411864C0F4EB9BC /* RoadSpeedLimit.swift in Sources */,
+				4BC53551727637D1F8B6ADC2 /* TripLocation.swift in Sources */,
+				E875DB1FA74627E1D5D36BBB /* CameraStore.swift in Sources */,
+				EF5759753B7476F78A5DCCA5 /* LocationManager.swift in Sources */,
+				F9F7648A309BE88A86C2E37D /* OsmCameraSyncService.swift in Sources */,
+				FBC5D432F88164F3E8F09C8E /* RoadSpeedLimitService.swift in Sources */,
+				7BA3A3E8909C3BD9B417533C /* TripRecorder.swift in Sources */,
+				32093AB6B5F2DB809DECA534 /* VoiceAlertManager.swift in Sources */,
+				EFF7DF8D45E2DE7A56487C41 /* GeoUtils.swift in Sources */,
+				1A0A210FB4634C9E39694B55 /* GpsUtils.swift in Sources */,
+				68D714F4968CC0F69108CA4F /* CameraMapView.swift in Sources */,
+				C3A06A3450CD5B4F8DEF0C66 /* DashboardView.swift in Sources */,
+				A56E73ACC33CE11035AAAFC6 /* MainTabView.swift in Sources */,
+				686C404C84BB19E7802C3B68 /* SettingsView.swift in Sources */,
+				8D78F70FC4000718EC47C6A7 /* SpeedLimitSignView.swift in Sources */,
+				018E20D05065233215DA2DD5 /* SpeedometerView.swift in Sources */,
+				1229B40DBA4DB0843A4A17AC /* TripHistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84850C34B551202F950A8A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32C8242A3B298028BFF76990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE912E7CA9712A74B447EE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SpeedNotify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedNotify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speednotify.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D14E739A5DF7B993D139497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SpeedNotify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedNotify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speednotify.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F726A1AC499C0EA99DDD1C3 /* Build configuration list for PBXProject "SpeedNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84850C34B551202F950A8A2D /* Debug */,
+				32C8242A3B298028BFF76990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835EBBF1B9474116B604706B /* Build configuration list for PBXNativeTarget "SpeedNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE912E7CA9712A74B447EE08 /* Debug */,
+				9D14E739A5DF7B993D139497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA2671185F1DB4062AE9EAA /* Project object */;
+}
